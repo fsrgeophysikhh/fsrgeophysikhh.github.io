@@ -5,9 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
         <title>{{ page.title }}</title>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
@@ -15,8 +12,22 @@
     <body>
       <div id="header_wrap" class="outer">
         <header class="inner">
-          <h1 id="project_title">{{ page.title }}</h1>
+        <span id="forkme_banner" ></span>
+        <h1 id="project_title"><a href="/">FSR Geophysik Uni Hamburg</a></h1>
           <h2 id="project_tagline">Aktuelles, Infos zum Studium, Aktionen</h2>
+          <nav>
+            <ul>
+              {% for p in site.pages %}
+                {% if p.title != 'Home' %}
+                  <li>
+                    <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                      {{ p.title }}
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
 
         </header>
     </div>
