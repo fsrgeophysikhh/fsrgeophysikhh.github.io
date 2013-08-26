@@ -1,13 +1,17 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: FSR Geophysik Uni Hamburg
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Neues</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% assign content = post.content %}
+      <article>
+        <header><h3>{{ post.title }}</h3></header>
+        {{ content }}
+      </article>
     {% endfor %}
   </ul>
 </div>
