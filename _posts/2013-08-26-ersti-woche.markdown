@@ -13,5 +13,5 @@ Wir haben jetzt das Programm für die Ersti-Woche online
 | **10:00 Uhr** Begrüßung |
 | **11:00 Uhr** Einfürhung in das Studium, Erläuterungen des Studienplans und der einzelnen Module |
 | **12:00 Uhr** Erläuterungen zu Wahlfächern, Praktika, FSR etc. |
-| **13:00 Uhr** Mittagspause und Campusführung | Besuch im Wind und Wellenkanal in Rissen **Gruppe 1** |
+| **13:00 Uhr** Mittagspause und Campusführung | **13:00 Uhr** Besuch im Wind und Wellenkanal in Rissen **Gruppe 1** |
 | **15:00 Uhr** Rundgang durch das zmaw, Geomatikum, Bibliothek... |
