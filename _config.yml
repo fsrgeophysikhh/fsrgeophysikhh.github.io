@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
+name: FSR Geophysik Uni Hamburg
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fences_code_blocks", "autolink", "tables", "with_toc_data"]
 pygments: true
